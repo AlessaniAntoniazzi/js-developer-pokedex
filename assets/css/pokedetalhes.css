@@ -1,0 +1,102 @@
+#popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.8b894d3013a60a29ae3022930eb7c4ae?rik=%2bz%2b8OG0Rn8fWyg&riu=http%3a%2f%2fimg2.wikia.nocookie.net%2f__cb20100922034802%2fpokemon%2fimages%2f4%2f43%2fVermilion_City_HGSS.png&ehk=EyXozixxci%2bB9Mx8OaqxuvChXZ3jbAL6jW0aEumtkCU%3d&risl=&pid=ImgRaw&r=0);
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+
+#closeButton{
+    background-color: #030303;
+    font-size: 1rem;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    float: right;
+    justify-content: space-evenly;
+   
+}
+
+#img-pokemon{
+    margin-left:30px;
+    width: 300px; 
+    margin-bottom: 60px;
+}
+
+#data{
+   
+    background-color: #cfcfcf;
+    height: 19rem;
+    width: 22rem;
+    border-radius: 1%;
+   
+}
+
+#data h4{
+    text-align: center;
+    color: rgb(14, 14, 14)
+}
+
+#stats{
+    display: flex;
+    font-size: 0.8rem;
+    width: 80%;
+}
+
+.stat-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 0 0 60px;
+    color: azure;
+}
+
+.stat-bar p{
+    border-radius: 5px;
+    padding: 0.6rem;
+    box-shadow: 1px #242323;
+    background-color: #181818;
+}
+
+#hability{
+    display: flex;
+    width: 60%;
+    font-size: 0.7rem;
+    margin: 0 0 0 80px;
+    color: #cfcfcf;
+}
+
+.stat-desc{
+    color: rgb;
+    text-align: center;
+    border-right: .5px solid;
+    text-transform: uppercase;   
+}
+
+.stat-desc p{
+      border-radius: 2px;
+      color: #000;
+      background-color: white;
+ 
+}
+
+.bar-inner{
+    
+    border-radius: 4px;
+    padding-left: 0.6rem;
+    color: #000;   
+}
+
+.bar-inner p{
+    padding: 0.01rem;
+    border-radius: 2px;
+    color: #000;
+    background-color: #ffffff;
+}
